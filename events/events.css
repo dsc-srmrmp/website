@@ -1,0 +1,27 @@
+.event-card {
+  background-color: #e5e5e5;
+  max-width: 270px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.event-image {
+  display: flex;
+  justify-content: center;
+}
+
+.event-image img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 270px;
+  height: 200px;
+}
+
+.event-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
