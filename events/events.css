@@ -1,8 +1,29 @@
+.all-events {
+  display: block;
+}
+
+.event-heading {
+  text-align: center;
+}
+
+.live-events {
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 2px solid grey;
+}
+
+.past-events {
+  display: inline-block;
+  padding-left: 8px;
+}
+
 .event-card {
   background-color: #e5e5e5;
   max-width: 270px;
-  padding: 10px;
+  padding: 15px;
+  margin: 10px;
   display: flex;
+  display: inline-block;
   flex-direction: column;
   border-radius: 5px;
 }
