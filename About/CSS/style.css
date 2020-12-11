@@ -94,9 +94,7 @@ h2{
   text-align: center;
   font-family: "Noto Serif";
 }
-/* .right-para5{
-  font-family:  'Merriweather', 'serif'; 
-} */
+
 .alert{
   width: 40%;
   font-size: 20px;
@@ -109,7 +107,7 @@ h2{
   font-style: bold;
   margin-top: 25px;
   padding-left: 50px;
-  /* border: 2px dotted orange; */
+  
   width: 110%;
 }
 .gh{
@@ -156,7 +154,7 @@ h2{
   .about-left{
 
     float: none;
-    /* margin-right: 0; */
+    
     width: auto;
     margin-bottom: 40px;
     margin-top: 10%;
@@ -166,7 +164,7 @@ h2{
   
   }
   .content-heading1 {
-    /* padding-left: 20px; */
+    
     text-align: center;
     margin-top: 200px;
     font-size: 20px;
@@ -175,7 +173,7 @@ h2{
   .content-sub1 {
     padding-top: 40px;
     padding-left: 40px;
-    /* text-align: center; */
+    
     font-weight: 900;
 
     font-size: 13px;
@@ -205,28 +203,25 @@ h2{
    float: none;
    margin-right: -1px;
    width: auto;
-   /* margin-bottom: 0px; */
+   
    margin-top: 10%;
-   /* float: none ;
-   margin-left: 50px;
-   margin-right: 20px;
-   */
+   
   } 
 
   .left-heading2{
     
-    /* padding-top: 20px; */
+    
     font-size: 30px;
     text-align: center;
    }
   .row{
-    /* left: 25px; */
+    
     
     float: none;
     margin-right: 0;
     width: auto;
    margin-bottom: 30px;
-    /* margin-top: 10%; */
+    
     margin-left: -90px;
     
 
@@ -234,15 +229,14 @@ h2{
   .alert{
     width: 50%;
    font-size: 15px;
-   /* font-weight: 100; */
+   
    text-align: center;
    border-radius: 2px;
-    /* width: 20%;
-    font-size: 20px; */
+    
   }
   .col{
     font-size: 7px;
-    /* margin-left: -5px; */
+    
   }
   .gh{
     font-weight: 500;
@@ -250,33 +244,24 @@ h2{
     font-size: 10px;
   }
   
-  /* .alert-primary{
-    /* padding-top: 50px; */
-    /* margin-top: 50px; */
-    /* display: inline; */
-    
-  /* } */
+ 
   .alert-success{
     width: 80%;
   }
-  /* .tt{
-    margin-top: 45px;
-  } */
+ 
   .alert-primary
   {
     
     width: 80%;
-    /* padding-bottom: 4px; */
-    /* font-weight: 700; */
-    /* display: inline; */
+    
     font-size: 12px;
   } 
   .box-right{
     margin-top: -50px; 
     float: none;
-    /* margin-right: 0; */
+  
     width: auto;
-    /* margin-bottom: 40px; */
+  
     
   }
   .right-para5{
@@ -299,7 +284,7 @@ h2{
   .about-left{
 
     float: none;
-    /* margin-right: 0; */
+    
     width: auto;
     margin-bottom: 40px;
     margin-top: 10%;}
@@ -310,7 +295,7 @@ h2{
     
   }
   .content-heading1 {
-    /* padding-left: 20px; */
+    
     text-align: center;
     margin-top: 170px;
     font-size: 20px;
@@ -320,7 +305,7 @@ h2{
   .content-sub1 {
     padding-top: 40px;
     padding-left: 50px;
-    /* text-align: center; */
+    
     font-weight: 900;
 
     font-size: 13px;
@@ -335,7 +320,7 @@ h2{
 {
   .content-heading1 
   {
-    /* padding-left: 20px; */
+    
     text-align: center;
     margin-top: 230px;
     font-size: 28px;
@@ -352,7 +337,7 @@ h2{
     height: 50vh;
   }
   .content-heading1 {
-    /* padding-left: 20px; */
+    
     text-align: center;
     margin-top: 500px;
     font-size: 40px;
@@ -362,7 +347,7 @@ h2{
   .content-sub1 {
     padding-top: 40px;
     padding-left: 50px;
-    /* text-align: center; */
+   
     font-weight: 900;
 
     font-size: 20px;
@@ -388,11 +373,10 @@ h2{
     margin: 30px 60px;
     width: 50%;
    font-size: 15px;
-   /* font-weight: 100; */
+   
    text-align: center;
    border-radius: 2px;
-    /* width: 20%;
-    font-size: 20px; */
+  
   }
   .col{
     margin-left:110px;
@@ -428,7 +412,7 @@ h2{
 @media only screen and (max-width: 1376px) and (min-width: 1020px)
 { .content-heading1 
   {
-    /* padding-left: 20px; */
+   
     text-align: center;
     margin-top: 10px;
     font-size: 40px;
