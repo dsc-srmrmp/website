@@ -24,12 +24,12 @@
 
 
 .about-left{
-  /* border: 2px solid green; */
+  
   float: left;
   width: 50%;
-  /* font-family:  Merriweather ; */
+  
   padding-top: 100px;
-  /* font-weight: 400; */
+ 
   
  
 }
@@ -51,17 +51,17 @@ h2{
   padding-right: 40px;
   text-align: left;
   font-family: "Noto Serif";
-  /* font-size: large; */
+  
   font-weight: 700;
 }
 
 .about-right{
-  /* border: 2px solid red; */
+  
   float: right;
   width: 50%;
-  /* margin-left: 25px; */
+  
   padding-left: 50px ;
-  /* align-items: left; */
+ 
 }
 
 /* *********************************** section2 *********************************** */
