@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/* Navbar */
+
+.navbar-brand {
+  font-weight: 700;
+  margin-left: 10px;
+  color: black;
+  float: right;
+  padding-bottom: 30px;
+  padding-top:0px;
+
+  color: white;
+  margin-left: 10px;
+   font-size:18px !important; 
+}
+
+.nav-link {
+  color: rgb(15, 15, 15);
+  padding-right: 20px !important;
+  letter-spacing: 4px;
+  font-weight: 500;
+  transition: all ease 0.5s;
+}
+
+.nav-link:hover {
+  padding-right: 20px !important;
+  transition: all ease 0.5s;
+  color: #f5f3f3;
+}
+
+
+Heading 
+.main-head {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 64px;
+}
+
+.main-head::after {
+  content: "";
+  width: 92px;
+  height: 4px;
+  bottom: -16px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 576px) {
+  .main-head {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    margin-bottom: 32px;
+  }
+
+  .main-head::after {
+    width: 46px;
+  }
+  .navbar-brand {
+    color: white;
+    font-size: 18px !important;
+  }
+}
+
+
+#team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+  .img-container {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: rgba(31, 29, 29, 0.8);
+  }
+  
+  .img-container:hover .overlay {
+    opacity: 1;
+    border-radius: 55%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  .text h4 {
+    padding-top: 30px;
+    font-weight: bold;
+  }
+  
+  .text a {
+    padding: 10px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: white;
+    transition-duration: 0.5s;
+  }
+  .text h2{
+    padding-top: 80%;
+    padding-bottom: 60px;
+}
+.text h5{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+  .text a:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+  .main-image{
+    height: 35vw;
+    width: auto;
+    float: center;
+    max-height: 80px;
+    position: relative;
+    top: 20px;
+    transform: translateY(-50%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
+
