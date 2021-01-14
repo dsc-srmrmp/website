@@ -1,9 +1,36 @@
+/*** Events Intro **/
+#events-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#events-intro-desc {
+  text-align: center;
+  display: flex;
+  padding: 10%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#events-intro-img img {
+  height: 90%;
+  width: 90%;
+}
+
+/*** Events Cards **/
+
 .all-events {
   display: block;
 }
 
 .event-heading {
-  text-align: center;
+  padding-left: 10%;
+  border-right: 2px solid red;
 }
 
 .live-events {
@@ -45,4 +72,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.more-events {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.more-events a {
+  text-decoration: none;
 }
